@@ -1,0 +1,27 @@
+{   
+  "channel": "{{channel}}",
+  "username": "{{bot_name}}",
+  "icon_emoji": ":closed_lock_with_key:",
+  "attachments": [
+      {
+          "fallback": "Plain-text summary of the attachment.",
+          "color": "#FF0000",
+          "pretext": "SSL certificate check reminder",
+          "title": "{{domain}} :closed_lock_with_key:",
+          "title_link": "{{domain}}",
+          "text": "This is a reminder that your certificate will expire in {{time_amount}} {{units}}",
+          "fields": [
+              {
+                  "title": "Priority",
+                  "value": "{{level}}",
+                  "short": false
+              }
+          ],
+          "image_url": "http://my-website.com/path/to/image.jpg",
+          "thumb_url": "http://example.com/path/to/thumb.png",
+          "footer": "{{organization}}",
+          "footer_icon": "https://www.iconfinder.com/data/icons/security-double-color-red-and-black-vol-1/52/alarm__alert__light__emergency-512.png",
+          "ts": 123456789
+      }
+  ]
+}
